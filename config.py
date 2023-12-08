@@ -40,9 +40,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/AloneXBots")
+    "SUPPORT_CHANNEL", "https://t.me/GOVIND_USERBOT_UPDATE")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/AlonesHeaven")
+    "SUPPORT_GROUP", "https://t.me/Hindi_Marathi_Friends_Group")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -114,7 +114,7 @@ confirmer = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b15c198fb79ce6e71c5b0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b472268fd87b749ad8773.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
