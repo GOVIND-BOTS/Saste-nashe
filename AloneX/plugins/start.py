@@ -87,7 +87,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/AlonesHeaven) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/Hindi_Marathi_Friends_Group) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -137,7 +137,7 @@ async def start_comm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🥀𝐀𝐥𝐨𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐅𝐨𝐫 𝐮𝐡....")
+            m = await message.reply_text("🥀 『𝒘𝒂𝒊𝒕 𝒎𝒆𝒓𝒊 𝒋𝒂𝒂𝒏 𝒑𝒍𝒂𝒚𝒊𝒏𝒈 𝒇𝒐𝒓 𝒚𝒐𝒖』 🥰....")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -179,7 +179,7 @@ async def start_comm(client, message: Message, _):
                             text="🥀𝐘συтυвє🥀", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🏓𝐒υρρσят🏓", url="https://t.me/AlonesHeaven"
+                            text="🏓𝐒υρρσят🏓", url="https://t.me/Hindi_Marathi_Friends_Group"
                         ),
                     ],
                 ]
